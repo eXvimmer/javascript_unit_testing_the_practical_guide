@@ -47,3 +47,11 @@ it("should throw an error if argument is provided to the function", () => {
 
   expect(resultFn).toThrow();
 });
+
+it("should throw an error if multiple arguments are provided instead of an array", () => {
+  function resultFn() {
+    add(1, 2, 3);
+  }
+
+  expect(resultFn).toThrow(/is not iterable/i);
+});

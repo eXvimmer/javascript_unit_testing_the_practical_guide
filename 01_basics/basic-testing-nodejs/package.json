@@ -7,7 +7,7 @@
     "test": "vitest"
   },
   "keywords": [],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Mustafa Hayati",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"

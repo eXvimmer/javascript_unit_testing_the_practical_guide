@@ -41,6 +41,7 @@ describe("cleanNumbers", () => {
     cleanedNumbers.forEach((val) => {
       expect(val).toBeTypeOf("number");
     });
+    expect(cleanedNumbers).toEqual([1, 2]);
   });
 
   it("should throw an error if an array with at least one empty string is provided", () => {

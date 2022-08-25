@@ -5,6 +5,9 @@ export function transformToNumber(value) {
   return +value;
 }
 
+/**
+ * transform an 'array of string numbers' to an array of numbers.
+ */
 export function cleanNumbers(numberValues) {
   const numbers = [];
 

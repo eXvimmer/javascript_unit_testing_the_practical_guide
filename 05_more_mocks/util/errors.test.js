@@ -27,4 +27,3 @@ describe("class validationError", () => {
     expect(err.message).toBe(message);
   });
 });
-

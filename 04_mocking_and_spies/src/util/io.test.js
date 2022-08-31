@@ -7,7 +7,7 @@ vi.mock("path", () => {
   return {
     default: {
       join(...args) {
-        return args[args.length - 1]; // ignore the path and return the filename
+        return args[args.length - 1]; // NOTE: ignore the path and return the filename
       }
     }
   }

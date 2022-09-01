@@ -9,7 +9,7 @@
     "start": "http-server -c-1"
   },
   "keywords": [],
-  "author": "Mustafa Hayati",
+  "author": "Mustafa Hayati & Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
     "http-server": "^14.1.0",

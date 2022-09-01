@@ -1,5 +1,5 @@
-import { it, describe, expect } from "vitest"
-import { HttpError, ValidationError } from "./errors"
+import { it, describe, expect } from "vitest";
+import { HttpError, ValidationError } from "./errors";
 
 describe("class HttpError", () => {
   it("should contain a message, statusCode and data", () => {

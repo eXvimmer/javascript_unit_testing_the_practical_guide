@@ -4,9 +4,9 @@ import { validateNotEmpty } from "./validation";
 describe("validateNotEmpty", () => {
   it("should throw an error for empty texts", () => {
     const invalid = ["", "       "];
-    invalid.forEach(item => {
+    invalid.forEach((item) => {
       function thrower() {
-        validateNotEmpty(item)
+        validateNotEmpty(item);
       }
 
       expect(thrower).toThrow();
@@ -14,7 +14,7 @@ describe("validateNotEmpty", () => {
   });
 
   it("should throw an error with the provided error message", () => {
-    const message = "text cannot be empty"
+    const message = "text cannot be empty";
     function thrower() {
       validateNotEmpty("", message);
     }

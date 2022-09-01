@@ -2,7 +2,7 @@ function extractResultQueryParam(req) {
   let result = req.query.result;
 
   if (!result) {
-    result = 'no-calc';
+    result = "no-calc";
   }
 
   return result;
